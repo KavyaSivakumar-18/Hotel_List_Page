@@ -1,0 +1,117 @@
+.hotel-details {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.back-button {
+  padding: 11px 22px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.details-card {
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.details-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.details-info {
+  padding: 10px 5px;
+}
+
+.details-info h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #172b4d;
+  font-size: 28px;
+}
+
+.details-info p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.details-info h3 {
+  margin-top: 22px;
+  margin-bottom: 10px;
+  color: #172b4d;
+  font-size: 19px;
+}
+
+.details-info .details-price {
+  color: #087443;
+  font-size: 26px;
+}
+
+.map-section {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.map-section h3 {
+  color: #172b4d;
+  margin-bottom: 15px;
+}
+
+.map-section iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.map-section a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.map-section a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .hotel-details {
+    padding: 12px;
+  }
+
+  .details-card {
+    padding: 15px;
+  }
+
+  .details-image {
+    height: 230px;
+  }
+
+  .details-info h2 {
+    font-size: 23px;
+  }
+
+  .details-info .details-price {
+    font-size: 22px;
+  }
+}

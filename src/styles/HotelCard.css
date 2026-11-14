@@ -1,0 +1,54 @@
+.hotel-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.hotel-card:hover {
+  transform: translateY(-5px);
+}
+
+.hotel-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-details {
+  padding: 15px;
+}
+
+.hotel-details h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hotel-details p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.hotel-details h4 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.hotel-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.hotel-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.hotel-buttons button:last-child {
+  background-color: #dc3545;
+}

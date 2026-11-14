@@ -1,0 +1,119 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  background: linear-gradient(135deg, #101d40, #174a78, #2876a8);
+  font-family: Arial, sans-serif;
+}
+
+.login-page h1 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-page > p {
+  color: #dce8f5;
+  margin-bottom: 30px;
+}
+
+.login-box {
+  width: 400px;
+  max-width: 100%;
+  padding: 35px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.role-buttons {
+  display: flex;
+  padding: 5px;
+  background-color: #edf2f7;
+  border-radius: 10px;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.role-buttons button {
+  flex: 1;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #555;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.role-buttons button.active {
+  background-color: #174a78;
+  color: white;
+  box-shadow: 0 3px 8px rgba(23, 74, 120, 0.3);
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.login-box input {
+  padding: 13px;
+  margin-bottom: 20px;
+  border: 1px solid #d5dce5;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-box input:focus {
+  border-color: #2876a8;
+  box-shadow: 0 0 5px rgba(40, 118, 168, 0.2);
+}
+
+.login-submit {
+  padding: 13px;
+  margin-top: 8px;
+  background: linear-gradient(90deg, #174a78, #2876a8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-submit:hover {
+  background: #101d40;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .login-page h1 {
+    font-size: 25px;
+  }
+
+  .login-box {
+    padding: 25px 20px;
+  }
+}
