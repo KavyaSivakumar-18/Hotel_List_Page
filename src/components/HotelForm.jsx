@@ -122,7 +122,7 @@ function HotelForm({ editHotel, onSubmit, onCancel }) {
           step="any"
           value={price}
           onChange={(e) => setPrice(e.target.value)}
-          placeholder="Enter hotel price"
+          placeholder="Enter price"
           required
         />
 
